@@ -1,6 +1,26 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
+# PirateHUB
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
+This is an app for Whitworth University.  It compiles a "hub" of information pertinent to students, faculty, staff, and parents into one easily accessible phone app.  The information included in this app includes Facebook and Instagram University feeds, a compilation of important phone numbers, various calendars, a campus map, and various in-app browsers.  
+
+# Front End Documentation
+
+ [Start Bootstrap](http://startbootstrap.com/) -  [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) Using: [PhoneGap](http://phonegap.com/) for MultiPlatform Support
+
+##PhoneGap
+
+This section is for customizations of PhoneGap.
+
+## Bootstrap
+
+This section is for customizations of Bootstrap.
+
+## Grayscale
+
+This section is for customizations of Grayscale.
+
+# Back End Documentation
+
+# Built in Github Sections
 
 ## Getting Started
 
