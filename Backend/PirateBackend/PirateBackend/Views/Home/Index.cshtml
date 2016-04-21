@@ -5,6 +5,16 @@
 @section Scripts {
     @Scripts.Render("~/bundles/knockout")
     <script type="text/javascript">
+        @functions
+        {
+            public string TokenHeaderValue()
+            {
+                string cookieToken, formToken;
+                AntiForgery.GetTokens(null, out cookieToken, out formToken);
+                return cookieToken + ":" + formToken;
+            }
+        }
+
         function AthleticEventsViewModel() {
             var self = this;
             self.athleticEvents = ko.observableArray([]);
@@ -38,7 +48,7 @@
         <h1 data-bind="text: AthleticEventType" class="ui-widget-header"></h1>
         <div><span data-bind="text: $data.AthleticEventDescription || 'Description?'"></span></div>
         <div>
-            <span data-bind="text: $data.AthleticEventDateTime || 'Date/Time?'"></span>,
+            <span data-bind="text: $data.AthleticEventDateTime || 'Date/Time?'"></span>
             <span data-bind="text: $data.AthleticEventLocation || 'Location?'"></span>
             <span data-bind="text: $data.AthleticEventOpponent || 'Opponent?'"></span>
         </div>

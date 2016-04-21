@@ -180,6 +180,7 @@
     <Compile Include="Models\AthleticEvent.cs" />
     <Compile Include="Models\PirateBackendContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ValidateHttpAntiForgeryTokenAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AthleticEvent.css" />

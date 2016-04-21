@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using PirateBackend.Models;
+using PirateBackend.Filters;
 
 namespace PirateBackend.Controllers
 {
@@ -37,6 +38,7 @@ namespace PirateBackend.Controllers
 
         // PUT: api/AthleticEvent/5
         [ResponseType(typeof(void))]
+        [ValidateHttpAntiForgeryToken]
         public IHttpActionResult PutAthleticEvent(int id, AthleticEvent athleticEvent)
         {
             if (!ModelState.IsValid)
@@ -72,6 +74,7 @@ namespace PirateBackend.Controllers
 
         // POST: api/AthleticEvent
         [ResponseType(typeof(AthleticEvent))]
+        [ValidateHttpAntiForgeryToken]
         public IHttpActionResult PostAthleticEvent(AthleticEvent athleticEvent)
         {
             if (!ModelState.IsValid)
@@ -87,6 +90,7 @@ namespace PirateBackend.Controllers
 
         // DELETE: api/AthleticEvent/5
         [ResponseType(typeof(AthleticEvent))]
+        [ValidateHttpAntiForgeryToken]
         public IHttpActionResult DeleteAthleticEvent(int id)
         {
             AthleticEvent athleticEvent = db.AthleticEvents.Find(id);
