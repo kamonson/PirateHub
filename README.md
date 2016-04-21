@@ -13,8 +13,8 @@ Service Plan: South Centeral US
 Resource Group: Backend
 
 Database Server: PirateDB
-User Name: Pirate
-Password: P@ssword
+User Name: see team
+Password: see team
 
 Updated _Layout.cshtmll to represent document
 
@@ -22,8 +22,8 @@ Updated _Layout.cshtmll to represent document
 
 Server:  piratehub.scm.azurewebsites.net:443
 Site Name: PirateHub
-User name: $PiratHub
-Password: P@ssword (may be updated)
+User name: see team
+Password:  see team
 Destination URL: http://piratehub.azurewebsites.net
 
 ###Database
