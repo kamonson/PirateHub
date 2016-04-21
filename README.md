@@ -72,3 +72,16 @@ Tried to add XSRF protection, but this broke the build, for now it is disabled v
 
 
 
+##Frontend
+
+###PhoneGap
+
+More on PhoneGap
+
+###Bootstrap
+
+More on Bootstrap
+
+###Modified Grayscale Template
+
+Changes to Grayscale
