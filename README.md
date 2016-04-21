@@ -1,11 +1,11 @@
 # PirateHub
 This is the working copy of the missing Whitworth University Student App
 
-**Backend
+##Backend
 
-PirateBacked Deployed to Azure: pirateHub.azurewebsites.net
+PirateBacked Deployed to Azure
 
-*Creation
+###Creation
 
 Web App Name: PirateBacked
 Subscription: Azure Pass (this is a trial associated with Kyle Amonson's Account)
@@ -18,7 +18,7 @@ Password: P@ssword
 
 Updated _Layout.cshtmll to represent document
 
-*Publishing
+###Publishing
 
 Server:  piratehub.scm.azurewebsites.net:443
 Site Name: PirateHub
@@ -26,7 +26,7 @@ User name: $PiratHub
 Password: P@ssword (may be updated)
 Destination URL: http://piratehub.azurewebsites.net
 
-*Database
+###Database
 
 The ASP.NET MVC the scaffolding feature can automatically generate code that performs create, read, update, and delete (CRUD) actions.
 
@@ -50,13 +50,13 @@ Model Framework for AthleticEvent:
         }
     }
 	
-*MVC 5 Controller with views using Entity Framework
+###MVC 5 Controller with views using Entity Framework
 
 Model Class: AthleticEvents (PirateBackend.Models)
 Data context class: PirateBackend.Models.PirateBackendContext
 Controller Name: HomeController
 
-*View Edititing
+###View Edititing
 
 This is a complicated beast.
 
@@ -66,7 +66,7 @@ added AthleticEventController to handle api calls
 
 piratehub.azurewebsites/api/athleticEvent/ i --I being the id of the event desired, or no i for all listed evens, returned in json/xml format depending on browser
 
-*Known Problem
+###Known Problem
 
 Tried to add XSRF protection, but this broke the build, for now it is disabled via comments :(
 
