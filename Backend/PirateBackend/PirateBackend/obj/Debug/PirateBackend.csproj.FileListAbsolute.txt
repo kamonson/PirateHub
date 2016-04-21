@@ -57,3 +57,7 @@ C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.dll
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.pdb
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.xml
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.xml
