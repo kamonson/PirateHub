@@ -57,3 +57,9 @@ C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.csprojResolveAssemblyReference.cache
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.dll
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.pdb
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.xml
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.xml
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.Migrations.Initial.resources
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.csproj.GenerateResource.Cache

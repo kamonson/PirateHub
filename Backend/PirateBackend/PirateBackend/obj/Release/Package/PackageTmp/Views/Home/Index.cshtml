@@ -1,31 +1,86 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿@model IEnumerable<PirateBackend.Models.AthleticEvent>
+@{
+    ViewBag.Title = "Home";
 }
+@section Scripts {
+    @Scripts.Render("~/bundles/knockout")
+    <script type="text/javascript">
+        //This is to enable security, however security seems to break use
+        @*@functions
+        {
+            public string TokenHeaderValue()
+                {
+                    string cookieToken, formToken;
+                    AntiForgery.GetTokens(null, out cookieToken, out formToken);
+                    return cookieToken + ":" + formToken;
+                }
+        }*@ 
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+        function AthleticEventsViewModel() {
+            var self = this;
+            self.athleticEvents = ko.observableArray([]);
+            self.addAthleticEvent = function () {
+                $.post("api/athleticEvent",
+                    $("#addAthleticEvent").serialize(),
+                    function (value) {
+                        self.athleticEvents.push(value);
+                    },
+                    "json");
+            }
+            self.removeAthleticEvent = function (athleticEvent) {
+                $.ajax({
+                    type: "DELETE",
+                    url: athleticEvent.Self,
+                    success: function () {
+                        self.athleticEvents.remove(athleticEvent);
+                    }
+                });
+            }
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+            $.getJSON("api/athleticEvent", function (data) {
+                self.athleticEvents(data);
+            });
+        }
+        ko.applyBindings(new AthleticEventsViewModel());
+    </script>
+}
+<ul id="athleticEvents" data-bind="foreach: athleticEvents">
+    <li class="ui-widget-content ui-corner-all">
+        <h1 data-bind="text: AthleticEventType" class="ui-widget-header"></h1>
+        <div><span data-bind="text: $data.AthleticEventDescription || 'Description?'"></span></div>
+        <div>
+            <span data-bind="text: $data.AthleticEventDateTime || 'Date/Time?'"></span>
+            <span data-bind="text: $data.AthleticEventLocation || 'Location?'"></span>
+            <span data-bind="text: $data.AthleticEventOpponent || 'Opponent?'"></span>
+        </div>
+        <p><a data-bind="attr: { href: Self }, click: $root.removeAthleticEvent" class="removeAthleticEvent ui-state-default ui-corner-all">Remove</a></p>
+    </li>
+</ul>
+<form id="addAthleticEvent" data-bind="submit: addAthleticEvent">
+    <fieldset>
+        <legend>Add New AthleticEvent</legend>
+        <ol>
+            <li>
+                <label for="AthleticEventType">AthleticEventType</label>
+                <input type="text" name="AthleticEventType" />
+            </li>
+            <li>
+                <label for="AthleticEventDescription">AthleticEventDescription</label>
+                <input type="text" name="AthleticEventDescription">
+            </li>
+            <li>
+                <label for="AthleticEventDateTime">AthleticEventDateTime</label>
+                <input type="datetime-local" name="AthleticEventDateTime" />
+            </li>
+            <li>
+                <label for="AthleticEventLocation">AthleticEventLocation</label>
+                <input type="text" name="AthleticEventLocation" />
+            </li>
+            <li>
+                <label for="AthleticEventOpponent">AthleticEventOpponent</label>
+                <input type="text" name="AthleticEventOpponent" />
+            </li>
+        </ol>
+        <input type="submit" value="Add" />
+    </fieldset>
+</form>
