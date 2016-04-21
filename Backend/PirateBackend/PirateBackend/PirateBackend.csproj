@@ -171,6 +171,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604210439037_Initial.cs" />
+    <Compile Include="Migrations\201604210439037_Initial.Designer.cs">
+      <DependentUpon>201604210439037_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AthleticEvent.cs" />
     <Compile Include="Models\PirateBackendContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -235,6 +240,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201604210439037_Initial.resx">
+      <DependentUpon>201604210439037_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
