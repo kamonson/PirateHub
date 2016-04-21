@@ -1,63 +1,75 @@
 ﻿@model IEnumerable<PirateBackend.Models.AthleticEvent>
-
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Home";
 }
+@section Scripts {
+    @Scripts.Render("~/bundles/knockout")
+    <script type="text/javascript">
+        function AthleticEventsViewModel() {
+            var self = this;
+            self.athleticEvents = ko.observableArray([]);
+            self.addAthleticEvent = function () {
+                $.post("api/athleticEvent",
+                    $("#addAthleticEvent").serialize(),
+                    function (value) {
+                        self.athleticEvents.push(value);
+                    },
+                    "json");
+            }
+            self.removeAthleticEvent = function (athleticEvent) {
+                $.ajax({
+                    type: "DELETE",
+                    url: athleticEvent.Self,
+                    success: function () {
+                        self.athleticEvents.remove(athleticEvent);
+                    }
+                });
+            }
 
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.AthleticEventType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AthleticEventDescription)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AthleticEventDateTime)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AthleticEventLocation)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AthleticEventOpponent)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Self)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.AthleticEventType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AthleticEventDescription)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AthleticEventDateTime)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AthleticEventLocation)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AthleticEventOpponent)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Self)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AthleticEventId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AthleticEventId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AthleticEventId })
-        </td>
-    </tr>
+            $.getJSON("api/athleticEvent", function (data) {
+                self.athleticEvents(data);
+            });
+        }
+        ko.applyBindings(new AthleticEventsViewModel());
+    </script>
 }
-
-</table>
+<ul id="athleticEvents" data-bind="foreach: athleticEvents">
+    <li class="ui-widget-content ui-corner-all">
+        <h1 data-bind="text: AthleticEventType" class="ui-widget-header"></h1>
+        <div><span data-bind="text: $data.AthleticEventDescription || 'Description?'"></span></div>
+        <div>
+            <span data-bind="text: $data.AthleticEventDateTime || 'Date/Time?'"></span>,
+            <span data-bind="text: $data.AthleticEventLocation || 'Location?'"></span>
+            <span data-bind="text: $data.AthleticEventOpponent || 'Opponent?'"></span>
+        </div>
+        <p><a data-bind="attr: { href: Self }, click: $root.removeAthleticEvent" class="removeAthleticEvent ui-state-default ui-corner-all">Remove</a></p>
+    </li>
+</ul>
+<form id="addAthleticEvent" data-bind="submit: addAthleticEvent">
+    <fieldset>
+        <legend>Add New AthleticEvent</legend>
+        <ol>
+            <li>
+                <label for="AthleticEventType">AthleticEventType</label>
+                <input type="text" name="AthleticEventType" />
+            </li>
+            <li>
+                <label for="AthleticEventDescription">AthleticEventDescription</label>
+                <input type="text" name="AthleticEventDescription">
+            </li>
+            <li>
+                <label for="AthleticEventDateTime">AthleticEventDateTime</label>
+                <input type="datetime-local" name="AthleticEventDateTime" />
+            </li>
+            <li>
+                <label for="AthleticEventLocation">AthleticEventLocation</label>
+                <input type="text" name="AthleticEventLocation" />
+            </li>
+            <li>
+                <label for="AthleticEventOpponent">AthleticEventOpponent</label>
+                <input type="text" name="AthleticEventOpponent" />
+            </li>
+        </ol>
+        <input type="submit" value="Add" />
+    </fieldset>
+</form>
