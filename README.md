@@ -2,44 +2,38 @@
 This is an app for Whitworth University.  It compiles a "hub" of information pertinent to students, faculty, staff, and parents into one easily accessible phone app.  The information included in this app includes Facebook and Instagram University feeds, a compilation of important phone numbers, various calendars, a campus map, and various in-app browsers.  
 
 ##Features
-..*Academic Calendar:
+*Academic Calendar:
 {more on Academic Calendar}
 
-..*Blackboard:
+*Blackboard:
 Uses iFrame to display blackboard within app page
 #bug blackboard is non responsive website, as a result scalling is broken
 
-..*Course Evaluations:
+*Course Evaluations:
 {more on Course Evaluations}
 
-..*Event Calendar:
+*Event Calendar:
 {more on Event Calendar}
 
-..*Facebook:
+*Facebook:
 {more on Facebook}
 
-
-..*Instagram:
+*Instagram:
 {more on Instagram}
 
-
-..*Location Services:
+*Location Services:
 {more on Location Services}
 
-
-..*Map:
+*Map:
 {more on Map}
 
-
-..*Phonebook:
+*Phonebook:
 {more on Phonebook}
 
-
-..*Sodexo Menu:
+*Sodexo Menu:
 {more on Sodexo Menu}
 
-
-..*Sports Calendar:
+*Sports Calendar:
 {more on Sports Calendar}
 
 
