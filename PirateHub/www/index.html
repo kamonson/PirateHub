@@ -42,6 +42,13 @@
     <meta name="theme-color" content="#ffffff">
     <!-- End of Favicon -->
 
+    <!-- BACKGROUND VIDEO STYLE SHEETS-->
+    <link rel="stylesheet" href="css/normalize.css" media="all">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- END BACKGROUND VIDEO STYLE SHEETS -->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -106,13 +113,14 @@
     <!-- /.container -->
 </nav>
 
+
 	
 	<!--<div id="logo">-->
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-r2wPypKqPg?rel=0&amp&autohide=2&border=0&wmode=opaque&enablejsapi=1&modestbranding=1&showinfo=0&autoplay=1&controls=0"  frameborder="0" allowfullscreen></iframe>
+      <!--  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-r2wPypKqPg?rel=0&amp&autohide=2&border=0&wmode=opaque&enablejsapi=1&modestbranding=1&showinfo=0&autoplay=1&controls=0"  frameborder="0" allowfullscreen></iframe> -->
         <!--<img src="img/piratehublogo.png" class="img-responsive" style="padding-top: 0px!important; margin-top: 0px !important;">-->
    <!-- </div>-->
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <!--<section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Pirate Hub</h2>
@@ -122,7 +130,52 @@
 				
 		   </div>
         </div>
+    </section> -->
+
+<!--VIDEO BACKGROUND-->
+<section class="big-background">
+    <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=-r2wPypKqPg',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
+
+    <div class="pattern"></div>
+    <div class="big-background-container">
+        <h1 class="big-background-title">Welcome To </h1>
+
+
+        <h1 class="big-background-title">PirateHub</h1>
+    </div>
+</section>
+
+
+
+<div class="wrapper">
+
+    <section class="about-section">
+
+        <div class="about-section-container">
+            <h2 class="about-section-title">Icons go here</h2>
+
+            <a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank" class="about-section-btn">Check it here</a>
+        </div>
+
     </section>
+
+
+    <section class="small-background-section">
+        <div class="pattern"></div>
+        <div class="small-background-container">
+            <h2 class="small-background-title"><span>Find us on social media</span></h2>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/designmodo" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                <li><a href="https://twitter.com/Designmodo" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+                <li><a href="https://plus.google.com/+Designmodo" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
+
+            </ul>
+        </div>
+    </section>
+
+
+</div>
+<!--END VIDEO BACKGROUND-->
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -139,6 +192,14 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
 
+
+<!-- BACKGROUND VIDEO JAVASCRIPT -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
+<script src="js/jquery.mb.YTPlayer.js"></script>
+<script src="js/custom.js"></script>
+
+<!-- END OF VIDEO JAVASCRIPT-->
 </body>
 
 </html>
