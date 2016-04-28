@@ -18,8 +18,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Favicon (Pirate Ship Logo)-->
@@ -32,7 +31,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="img/PirateHubFavicon.ico/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="img/PirateHubFavicon.ico/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="img/PirateHubFavicon.ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="img/PirateHubFavicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/PirateHubFavicon.ico/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/PirateHubFavicon.ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="img/PirateHubFavicon.ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/PirateHubFavicon.ico/favicon-16x16.png">
@@ -61,48 +60,42 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="index.html">
-                <span class="light">Pirate</span> Hub
+                 <span class="light">Pirate</span> Hub
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
+                <!-- FOR PAGE SCROLL TO TOP <li>
+                     <a class="page-scroll" href="#page-top">Top</a>
+                 </li> -->
                 <li>
-                    <a class="page-scroll" href="#page-top">Top</a>
+                    <a href="AcademicSchedules.html">Academic Schedules</a>
                 </li>
                 <li>
-                    <a href="AcademicCalendar.html">Academic Calendar</a>
+                    <a href="Athletics.html">Athletics</a>
                 </li>
                 <li>
                     <a href="Blackboard.html">Blackboard</a>
                 </li>
                 <li>
+                    <a href="Map.html">Campus Map</a>
+                </li>
+                <li>
                     <a href="CourseEvaluations.html"> Course Evaluations </a>
                 </li>
                 <li>
-                    <a href="EventCalendar.html">Event Calendar</a>
+                    <a href="EventCalendar.html">Events</a>
                 </li>
                 <li>
-                    <a href="FacebookAPI.html">Facebook</a>
-                </li>
-                <li>
-                    <a href="InstagramAPI.html">Instagram</a>
-                </li>
-                <li>
-                    <a href="LocationServices.html">Location Services</a>
-                </li>
-                <li>
-                    <a href="Map.html">Map</a>
+                    <a href="NewsFeed.html">News Feed</a>
                 </li>
                 <li>
                     <a href="Phonebook.html">Phonebook</a>
                 </li>
                 <li>
-                    <a href="SodexoMenu.html">Sodexo Menu</a>
-                </li>
-                <li>
-                    <a href="SportsCalendar.html">Sports Calendar</a>
+                    <a href="Gallery.html">Photo Gallery</a>
                 </li>
             </ul>
         </div>
@@ -121,8 +114,7 @@
 <script src="js/jquery.easing.min.js"></script>
 
 <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-<script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
@@ -131,47 +123,15 @@
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2><a href="#page-top">Sports Calendar</a></h2>
+            <h2><a href="#page-top">Instagram API</a></h2>
 
-            <p>Description: Users will click on this icon from the first app Window and it will take them to another
-                page with listed sporting events up to a week ahead. The information included will be the sports team,
-                date, time and location.</p>
-
-            <p>Difficulty Level: (L)This does not require web-scraping, but the information from the web-page needs to
-                be parsed and stored so it can be displayed in an appealing table.</p>
+            <p>Description: Users will click on this icon from the first app Window and it will take them to another page with the Instagram feed. This will not require an Instagram login and allows the user to scroll through Whitworth University Instagram posted pictures.</p>
+            <p>Difficulty Level: (M)This is an unknown feature for us, but there are numerous resources for us to utilize.</p><script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
+            <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+            <ul class="juicer-feed" data-feed-id="piratehub"><h1 class="referral"><a href="https://www.juicer.io"></a></h1></ul>
         </div>
     </div>
 </section>
-
-<script>
-    (function() {
-        var AthleticsAPI = "http://piratehub.azurewebsites.net/api/athleticEvent";
-
-//        $.getJSON( AthleticsAPI)
-//                .done(function( data )
-//                {
-//                    $('body').html(JSON.stringify(data));
-//                    $.each( data.items, function( i, item ) {
-//                        $( "<li class='list-group-item'>" ).attr( "src" ).appendTo( "body" );
-//                        if ( i === 3 ) {
-//                            return false;
-//                        }
-//                    });
-//                });
-        $.ajax({
-            url: AthleticsAPI,
-
-            dataType: "jsonp",
-            success: function( response ) {
-                console.log( response ); // server response
-                alert(response);
-            }
-
-        });
-    })();
-
-
-</script>
 
 </body>
 </html>

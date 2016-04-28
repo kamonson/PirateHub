@@ -52,6 +52,16 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+<!--Facebook JavaScript DONT MOVE-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
@@ -60,48 +70,42 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="index.html">
-                 <span class="light">Pirate</span> Hub
+                  <span class="light">Pirate</span> Hub
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
+                <!-- FOR PAGE SCROLL TO TOP <li>
+                     <a class="page-scroll" href="#page-top">Top</a>
+                 </li> -->
                 <li>
-                    <a class="page-scroll" href="#page-top">Top</a>
+                    <a href="AcademicSchedules.html">Academic Schedules</a>
                 </li>
                 <li>
-                    <a href="AcademicCalendar.html">Academic Calendar</a>
+                    <a href="Athletics.html">Athletics</a>
                 </li>
                 <li>
                     <a href="Blackboard.html">Blackboard</a>
                 </li>
                 <li>
+                    <a href="Map.html">Campus Map</a>
+                </li>
+                <li>
                     <a href="CourseEvaluations.html"> Course Evaluations </a>
                 </li>
                 <li>
-                    <a href="EventCalendar.html">Event Calendar</a>
+                    <a href="EventCalendar.html">Events</a>
                 </li>
                 <li>
-                    <a href="FacebookAPI.html">Facebook</a>
-                </li>
-                <li>
-                    <a href="InstagramAPI.html">Instagram</a>
-                </li>
-                <li>
-                    <a href="LocationServices.html">Location Services</a>
-                </li>
-                <li>
-                    <a href="Map.html">Map</a>
+                    <a href="NewsFeed.html">News Feed</a>
                 </li>
                 <li>
                     <a href="Phonebook.html">Phonebook</a>
                 </li>
                 <li>
-                    <a href="SodexoMenu.html">Sodexo Menu</a>
-                </li>
-                <li>
-                    <a href="SportsCalendar.html">Sports Calendar</a>
+                    <a href="Gallery.html">Photo Gallery</a>
                 </li>
             </ul>
         </div>
@@ -129,12 +133,24 @@
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-            <h2><a href="#page-top">Instagram API</a></h2>
+            <h2><a href="#page-top">Facebook API</a></h2>
 
-            <p>Description: Users will click on this icon from the first app Window and it will take them to another page with the Instagram feed. This will not require an Instagram login and allows the user to scroll through Whitworth University Instagram posted pictures.</p>
-            <p>Difficulty Level: (M)This is an unknown feature for us, but there are numerous resources for us to utilize.</p><script src="//assets.juicer.io/embed.js" type="text/javascript"></script>
-            <link href="//assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-            <ul class="juicer-feed" data-feed-id="piratehub"><h1 class="referral"><a href="https://www.juicer.io"></a></h1></ul>
+            <div class="fb_iframe_widget" data-href="https://www.facebook.com/whitworthuniversity/?fref=ts"
+                 data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false"
+                 data-show-facepile="false" fb-xfbml-state="rendered"
+                 fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=960&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fwhitworthuniversity%2F%3Ffref%3Dts&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline">
+        <span style="vertical-align: bottom; width: 340px; height: 500px;"><iframe name="f2f4aa8a75011a4" width="1000px"
+                                                                                   height="1000px" frameborder="0"
+                                                                                   allowtransparency="true"
+                                                                                   allowfullscreen="true" scrolling="no"
+                                                                                   title="fb:page Facebook Social Plugin"
+                                                                                   src="http://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df190d2fa957156%26domain%3Djperryresearchmethods.weebly.com%26origin%3Dhttp%253A%252F%252Fjperryresearchmethods.weebly.com%252Ff241d5d517eacc%26relation%3Dparent.parent&amp;container_width=960&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fwhitworthuniversity%2F%3Ffref%3Dts&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=timeline"
+                                                                                   style="border: none; visibility: visible;"
+                                                                                   class=""></iframe></span></div>
+
+			<!--Description of Facebook API-->
+			<p>Description: Users will click on this icon from the first app Window and it will take them to another page with the facebook feed. This will not require a facebook login and allows the user to scroll through Whitworth University Facebook posts.</p>
+            <p>Difficulty Level: (M)This is an unknown feature for us, but there are numerous resources for us to utilize.</p>
         </div>
     </div>
 </section>

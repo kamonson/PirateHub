@@ -1,9 +1,45 @@
 # PirateHub
-This is the working copy of the missing Whitworth University Student App
+This is an app for Whitworth University.  It compiles a "hub" of information pertinent to students, faculty, staff, and parents into one easily accessible phone app.  The information included in this app includes Facebook and Instagram University feeds, a compilation of important phone numbers, various calendars, a campus map, and various in-app browsers.  
+
+##Features
+*Academic Calendar:
+{more on Academic Calendar}
+
+*Blackboard:
+Uses iFrame to display blackboard within app page
+--bug blackboard is non responsive website, as a result scalling is broken
+
+*Course Evaluations:
+{more on Course Evaluations}
+
+*Event Calendar:
+{more on Event Calendar}
+
+*Facebook:
+{more on Facebook}
+
+*Instagram:
+{more on Instagram}
+
+*Location Services:
+{more on Location Services}
+
+*Map:
+{more on Map}
+
+*Phonebook:
+{more on Phonebook}
+
+*Sodexo Menu:
+{more on Sodexo Menu}
+
+*Sports Calendar:
+{more on Sports Calendar}
+
 
 ##Backend
-
-PirateBacked Deployed to Azure
+PirateBacked Deployed to Azure available api's:
+[Backend API Viewing] (piratehub.azurewebsites/api/athleticEvent)
 
 ###Creation
 
@@ -64,24 +100,37 @@ Customized index to call and set api data to website
 
 added AthleticEventController to handle api calls
 
-piratehub.azurewebsites/api/athleticEvent/ i --I being the id of the event desired, or no i for all listed evens, returned in json/xml format depending on browser
+[Backend API Viewing] (piratehub.azurewebsites/api/athleticEvent) add /i --I being the id of the event desired, or no i for all listed evens, returned in json/xml format depending on browser
 
 ###Known Problem
 
 Tried to add XSRF protection, but this broke the build, for now it is disabled via comments :(
 
-
-
 ##Frontend
+[Start Bootstrap](http://startbootstrap.com/) -  [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) Using: [PhoneGap](http://phonegap.com/) for MultiPlatform Support
 
 ###PhoneGap
 
-More on PhoneGap
+Used to convert to platfom specific projects for individual editing/compiling, no changes to the source code.  PhoneGap's documentation can be found here http://docs.phonegap.com/
+
+Program implementations:
+{+/- implementations here}
 
 ###Bootstrap
 
-More on Bootstrap
+See the Bootstrap readme.md, https://github.com/twbs/bootstrap/blob/master/README.md
+
+Modified:
+{+/- changes}
 
 ###Modified Grayscale Template
 
-Changes to Grayscale
+We used Grayscale Template as our base template, their readme.md can be found here http://startbootstrap.com/template-overviews/grayscale/
+
+We made extensive modification to the template:
+
+CSS Modified:
+{+/- changes here}
+
+JS Modified:
+{+/- changes here}
