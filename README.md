@@ -7,7 +7,7 @@ This is an app for Whitworth University.  It compiles a "hub" of information per
 
 *Blackboard:
 Uses iFrame to display blackboard within app page
-#bug blackboard is non responsive website, as a result scalling is broken
+--bug blackboard is non responsive website, as a result scalling is broken
 
 *Course Evaluations:
 {more on Course Evaluations}
