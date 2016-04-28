@@ -150,20 +150,20 @@ a.big-background-btn {
 .about-section {
     font-family:'Lato',sans-serif;
     color:#7f8c8d;
-    background:#fff;
+    background:#000;
     padding:60px 20px
 }
 
 .about-section-container {
     text-align:center;
-    padding-bottom:50px
+    padding-bottom:500px
 }
 
 .about-section-title {
     font-family:'Raleway',sans-serif;
     font-size:40px;
-    background:#fff;
-    color:#3d566e;
+    background:#000;
+    color:#fff;
     padding:0 35px;
     margin-bottom:22px;
     background-attachment:scroll;
@@ -179,9 +179,9 @@ a.about-section-btn {
     font-size:13px;
     text-transform:uppercase;
     text-decoration:none;
-    color:#34495e;
+    color:#fff;
     background:transparent;
-    border:2px solid #34495e;
+    border:2px solid #fff;
     padding:10px 14px;
     cursor:pointer;
     letter-spacing:2px;
@@ -195,7 +195,7 @@ a.about-section-btn {
 
 .about-section-btn:hover {
     color:#fff;
-    background: #34495e;
+    background: #fff;
 }
 
 
