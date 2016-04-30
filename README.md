@@ -34,7 +34,7 @@ Uses iFrame to display blackboard within app page
 {more on Sodexo Menu}
 
 *Sports Calendar:
-{more on Sports Calendar}
+Uses custom script to pull down API from pirate backend and populate a list of athletic events
 
 
 ##Backend
@@ -101,6 +101,8 @@ Customized index to call and set api data to website
 added AthleticEventController to handle api calls
 
 [Backend API Viewing] (piratehub.azurewebsites/api/athleticEvent) add /i --I being the id of the event desired, or no i for all listed evens, returned in json/xml format depending on browser
+
+Added CORS support for cross domain api calls
 
 ###Known Problem
 
