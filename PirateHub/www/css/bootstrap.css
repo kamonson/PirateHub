@@ -4944,6 +4944,12 @@ a.badge:focus {
   text-decoration: none;
   cursor: pointer;
 }
+.pirateEvents{
+  background-color: rgba(173,44,44,.7);
+  width: 100% !important;
+  padding: 0% !important;
+  right: 0% !important;
+}
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #337ab7;

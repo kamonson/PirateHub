@@ -122,49 +122,37 @@
 <script src="js/grayscale.js"></script>
 
 <!-- About Section -->
-<section id="about" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2><a href="#page-top">Sports Calendar</a></h2>
+<section id="AthleticEvents" class="container content-section text-center">
 
-            <p>Description: Users will click on this icon from the first app Window and it will take them to another
-                page with listed sporting events up to a week ahead. The information included will be the sports team,
-                date, time and location.</p>
-
-            <p>Difficulty Level: (L)This does not require web-scraping, but the information from the web-page needs to
-                be parsed and stored so it can be displayed in an appealing table.</p>
-        </div>
-    </div>
 </section>
 
 <script>
-    (function() {
-        var AthleticsAPI = "http://piratehub.azurewebsites.net/api/athleticEvent";
+    (function () {
+        $.getJSON("http://piratehub.azurewebsites.net/api/athleticEvent", function (data) {
+            var items = [];
+            var date;
+            $.each(data, function (key, val) {
+                date = val.AthleticEventDateTime;
+                var d=new Date(date);
+                var dateString = d.toDateString();
+                dateString += "<br>" +d.toLocaleTimeString();
+                items.push
+                (
+                        "<li id='" + key.toString() + "'class = 'list-group-item active'>"
+                        + '<h3>' + val.AthleticEventType + '</h3>'
+                        + '<p>' + val.AthleticEventDescription + '</p>'
+                        + '<p>' + dateString + '</p>'
+                        + '<p>' + val.AthleticEventOpponent + '</p>'
+                        + '<p>' + val.AthleticEventLocation + '</p>'
+                        + "</li>"
+                );
+            });
 
-//        $.getJSON( AthleticsAPI)
-//                .done(function( data )
-//                {
-//                    $('body').html(JSON.stringify(data));
-//                    $.each( data.items, function( i, item ) {
-//                        $( "<li class='list-group-item'>" ).attr( "src" ).appendTo( "body" );
-//                        if ( i === 3 ) {
-//                            return false;
-//                        }
-//                    });
-//                });
-        $.ajax({
-            url: AthleticsAPI,
-
-            dataType: "jsonp",
-            success: function( response ) {
-                console.log( response ); // server response
-                alert(response);
-            }
-
+            $("<ul/>", {
+                html: items.join("")
+            }).appendTo("#AthleticEvents");
         });
     })();
-
-
 </script>
 
 </body>

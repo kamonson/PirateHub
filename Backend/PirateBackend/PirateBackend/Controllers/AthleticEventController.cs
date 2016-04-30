@@ -9,6 +9,9 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using PirateBackend.Models;
+using System.Web.Cors;
+using System.Web.Http.Cors;
+
 //using PirateBackend.Filters;
 
 namespace PirateBackend.Controllers
@@ -16,6 +19,7 @@ namespace PirateBackend.Controllers
     /// <summary>
     /// bug Commented section is broken security
     /// </summary>
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class AthleticEventController : ApiController
     {
         private PirateBackendContext db = new PirateBackendContext();
