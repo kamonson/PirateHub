@@ -63,3 +63,6 @@ C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.csproj.GenerateResource.Cache
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.dll
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Debug\PirateBackend.pdb
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Cors.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Http.Cors.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Http.Cors.xml

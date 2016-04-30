@@ -63,3 +63,6 @@ C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\Entity
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.xml
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.Migrations.Initial.resources
 C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\obj\Release\PirateBackend.csproj.GenerateResource.Cache
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Cors.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Http.Cors.dll
+C:\Users\Kyle\Documents\PirateHub\Backend\PirateBackend\PirateBackend\bin\System.Web.Http.Cors.xml
