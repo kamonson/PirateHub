@@ -180,6 +180,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AcademicCalandarController.cs" />
     <Compile Include="Controllers\AthleticEventController.cs" />
+    <Compile Include="Controllers\EventCalandarController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -191,6 +192,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AcademicCalendar.cs" />
     <Compile Include="Models\AthleticEvent.cs" />
+    <Compile Include="Models\EventCalendar.cs" />
     <Compile Include="Models\PirateBackendContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidateHttpAntiForgeryTokenAttribute.cs" />

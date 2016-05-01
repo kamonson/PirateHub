@@ -33,6 +33,23 @@ namespace PirateBackend.Migrations
                     AthleticEventOpponent = "Self"
                 }
                 );
+            context.AcademicCalandars.AddOrUpdate(p => p.AcademicCalandarTitle,
+                new AcademicCalandar
+                {
+                    AcademicCalandarTitle = "The First Day Of The Rest Of Your Life",
+                    AcademicCalandarDescription = "Another bougas motivational speach",
+                    AcademicCalandarDateTime = DateTime.Now
+                }
+                );
+            context.EventCalandars.AddOrUpdate(p => p.EventCalandarTitle,
+                new EventCalandar
+                {
+                    EventCalandarTitle = "Yet another booring lecture",
+                    EventCalandarLocation = "Dixon Hall",
+                    EventCalandarDescription = "Core 350 talk about food policy, drone on and on and on and ...",
+                    EventCalandarDateTime = DateTime.Now
+                }
+                );
         }
     }
 }
