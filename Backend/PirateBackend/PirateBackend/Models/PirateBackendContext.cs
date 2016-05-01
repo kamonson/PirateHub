@@ -20,5 +20,9 @@ namespace PirateBackend.Models
         }
 
         public System.Data.Entity.DbSet<PirateBackend.Models.AthleticEvent> AthleticEvents { get; set; }
+
+        public System.Data.Entity.DbSet<PirateBackend.Models.AcademicCalandar> AcademicCalandars { get; set; }
+
+        public System.Data.Entity.DbSet<PirateBackend.Models.EventCalandar> EventCalandars { get; set; }
     }
 }
