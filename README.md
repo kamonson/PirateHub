@@ -41,6 +41,14 @@ Uses custom script to pull down API from pirate backend and populate a list of a
 PirateBacked Deployed to Azure available api's:
 [Backend API Viewing] (piratehub.azurewebsites/api/athleticEvent)
 
+There seems to be a problem with the configuration of visual studio holding onto cors and knockout, with nuget use
+
+Update-Package Microsoft.AspNet.WebApi.Cors -Reinstall
+Update-Package knockoutjs -reinstall
+
+also keep after any change to db makesure that 
+Update-Database is ran may require -Force (if things are removed)
+
 ###Creation
 
 Web App Name: PirateBacked
