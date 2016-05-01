@@ -10,7 +10,7 @@ namespace PirateBackend.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(PirateBackend.Models.PirateBackendContext context)

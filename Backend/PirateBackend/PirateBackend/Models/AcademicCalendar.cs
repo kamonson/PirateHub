@@ -11,8 +11,8 @@ namespace PirateBackend.Models
     {
         public int AcademicCalandarId { get; set; }
         public string AcademicCalandarTytle { get; set; }
-        public string AthleticEventDescription { get; set; }
-        public DateTime AthleticEventDateTime { get; set; }
+        public string AcademicCalandarDescription { get; set; }
+        public DateTime AcademicCalandarDateTime { get; set; }
         public string Self
         {
             get
