@@ -74,25 +74,22 @@ Destination URL: http://piratehub.azurewebsites.net
 
 The ASP.NET MVC the scaffolding feature can automatically generate code that performs create, read, update, and delete (CRUD) actions.
 
-Model Framework for AthleticEvent:
-    public class AthleticEvent
-    {
-        public int AthleticEventId { get; set; }
-        public string AthleticEventType { get; set; }
-        public string AthleticEventDescription { get; set; }
-        public DateTime AthleticEventDateTime { get; set; }
-        public string AthleticEventLocation { get; set; }
-        public string AthleticEventOpponent { get; set; }
-        public string Self
-        {
-            get
-            {
-                return string.Format(CultureInfo.CurrentCulture,
-               "api/athleticEvent/{0}", this.AthleticEventId);
-            }
-            set { }
-        }
-    }
+One model for Accademic, Event, and Sports Calendars (this would be better as 3 tables but for now it is what it is):
+
+        public int EventId { get; set; }
+        public string ACName { get; set; }
+	public string ECName { get; set; }
+	public string SCName { get; set; }
+        public string ACLocation { get; set; }
+	public string ECLocation { get; set; }
+	public string SCLocation { get; set; }
+        public string ACDescription { get; set; }
+	public string ECDescription { get; set; }
+	public string SCDescription { get; set; }
+        public dateTime ACDateTime { get; set; }
+	public dateTime ECDateTime { get; set; }
+	public dateTime SCDateTime { get; set; }
+        public string SCOpponent { get; set; }
 	
 ###MVC 5 Controller with views using Entity Framework
 
