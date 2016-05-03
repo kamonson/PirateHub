@@ -67,6 +67,7 @@
     <param name="APP_NAME" value="..." />
   </plugin>
   <access origin="*"/>
+  <access origin="http://youtube.com" />
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>
