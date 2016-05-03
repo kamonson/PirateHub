@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
 namespace PirateBackend.Models
 {
@@ -19,10 +15,13 @@ namespace PirateBackend.Models
         {
         }
 
-        public System.Data.Entity.DbSet<PirateBackend.Models.AthleticEvent> AthleticEvents { get; set; }
+        // ReSharper disable once UnusedAutoPropertyAccessor.Global
+        public DbSet<AthleticEvent> AthleticEvents { get; set; }
 
-        public System.Data.Entity.DbSet<PirateBackend.Models.AcademicCalandar> AcademicCalandars { get; set; }
+        // ReSharper disable once UnusedAutoPropertyAccessor.Global
+        public DbSet<AcademicCalandar> AcademicCalandars { get; set; }
 
-        public System.Data.Entity.DbSet<PirateBackend.Models.EventCalandar> EventCalandars { get; set; }
+        // ReSharper disable once UnusedAutoPropertyAccessor.Global
+        public DbSet<EventCalandar> EventCalandars { get; set; }
     }
 }

@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PirateBackend.Models
 {
@@ -20,8 +16,9 @@ namespace PirateBackend.Models
             get
             {
                 return string.Format(CultureInfo.CurrentCulture,
-               "api/athleticEvent/{0}", this.AthleticEventId);
+               "api/athleticEvent/{0}", AthleticEventId);
             }
+            // ReSharper disable once ValueParameterNotUsed
             set { }
         }
     }
