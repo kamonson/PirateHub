@@ -104,6 +104,10 @@
     <!-- /.container -->
 </nav>
 
+<section id="Events" class="container content-section text-center">
+
+</section>
+
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
 
@@ -119,30 +123,32 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
 
-<!-- Intro Header -->
-<header class="intro">
-    <div class="intro-body">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1 class="brand-heading">Pirate Hub</h1>
-                    <!--<a href="#about" class="btn btn-circle page-scroll"><i class="fa fa-angle-double-down animated"></i></a>-->
+<script>
+    (function () {
+        $.getJSON("http://piratebackend.azurewebsites.net/api/AcademicCalandar", function (data) {
+            var items = [];
+            var date;
+            $.each(data, function (key, val) {
+                date = val.AcademicCalandarDateTime;
+                var d=new Date(date);
+                var dateString = d.toDateString();
+                dateString += "<br>" +d.toLocaleTimeString();
+                items.push
+                (
+                        "<li id='" + key.toString() + "'class = 'list-group-item active'>"
+                        + '<h3>' + val.AcademicCalandarTitle + '</h3>'
+                        + '<p>' + val.AcademicCalandarDescription + '</p>'
+                        + '<p>' + dateString + '</p>'
+                        + "</li>"
+                );
+            });
 
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+            $("<ul/>", {
+                html: items.join("")
+            }).appendTo("#Events");
+        });
+    })();
+</script>
 
-<!-- About Section -->
-<section id="about" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2><a href="#page-top">Academic Calendar</a></h2>
-            <p>Description: Users will click on this icon from the first app Window and it will take them to another page with important undergraduate dates for the current semester. This information includes final exam schedules, the undergraduate academic calendar and registration timetables.</p>
-            <p>Difficulty Level: (L)This does not require web-scraping, but the information from the web-page needs to be parsed and stored so it can be displayed in an appealing table.</p>
-        </div>
-    </div>
-</section>
 </body>
 </html>

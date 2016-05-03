@@ -122,13 +122,13 @@
 <script src="js/grayscale.js"></script>
 
 <!-- About Section -->
-<section id="AthleticEvents" class="container content-section text-center">
+<section id="Events" class="container content-section text-center">
 
 </section>
 
 <script>
     (function () {
-        $.getJSON("http://piratehub.azurewebsites.net/api/athleticEvent", function (data) {
+        $.getJSON("http://piratebackend.azurewebsites.net/api/AthleticEvent", function (data) {
             var items = [];
             var date;
             $.each(data, function (key, val) {
@@ -150,7 +150,7 @@
 
             $("<ul/>", {
                 html: items.join("")
-            }).appendTo("#AthleticEvents");
+            }).appendTo("#Events");
         });
     })();
 </script>
