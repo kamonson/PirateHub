@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PirateHub" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Kyle\\Documents\\PirateHub\\Backend\\PirateBackend\\PirateBackend\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Kyle\\Documents\\PirateHub\\Backend\\PirateBackend\\PirateBackend\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="PirateBackendContext-Web.config Connection String" description="" value="Data Source=tcp:piratedb.database.windows.net,1433;Initial Catalog=PirateDB;User ID=Pirate@piratedb;Password=P@$$word" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Kyle\\Documents\\PirateHub\\Backend\\PirateBackend\\PirateBackend\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PirateBackendContext']/@connectionString" />
+  </parameter>
+</parameters>
