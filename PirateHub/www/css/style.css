@@ -193,12 +193,6 @@ a.about-section-btn {
     transition:.4s background ease;
 }
 
-.about-section-btn:hover {
-    color:#fff;
-    background: #fff;
-}
-
-
 
 /* SMALL VIDEO BACKGROUND 
 ================================================== */
@@ -279,3 +273,11 @@ a.about-section-btn {
 }
 
 
+
+/* INDEX ICONS
+================================================== */
+.index-icon {
+
+    -webkit-filter: drop-shadow(0px 0px 2px gray);
+    filter: drop-shadow(0px 0px 2px gray);
+}
