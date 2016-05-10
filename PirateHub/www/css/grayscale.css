@@ -382,3 +382,17 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+table {
+    width: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    padding: 5%;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+th {
+    padding: 10px;
+}
