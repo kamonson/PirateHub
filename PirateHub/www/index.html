@@ -49,6 +49,11 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- END BACKGROUND VIDEO STYLE SHEETS -->
 
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
+
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -132,8 +137,12 @@
         </div>
     </section> -->
 
-<!--TOP VIDEO BACKGROUND-->
 
+<!--SLIDE SHOW-->
+
+
+ <!--TOP VIDEO BACKGROUND-->
+<!--
 <section class="big-background ">
     <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=-r2wPypKqPg',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
 
@@ -142,19 +151,69 @@
         <h1 class="big-background-title">Welcome To <b>PirateHub</b> </h1>
 
         <!--DOWN ARROW BUTTON-->
-        <a href="#icon-section" class="btn btn-circle page-scroll">
+       <!-- <a href="#icon-section" class="btn btn-circle page-scroll">
         <i class="fa fa-angle-double-down animated">
         </i>
             </a>
         <!--END DOWN ARROW BUTTON-->
 
-    </div>
-</section>
+  <!--  </div>
+</section> -->
 
 
 
 <!--END TOP VIDEO BACKGROUND-->
+<!--<section class="big-background ">
+<script>
+    function startSlides(start, end, delay) {
+        setTimeout(slideshow(start,start,end, delay), delay);
+    }
+    function slideshow(frame, start, end, delay) {
+        return (function() {
+            $('#slideshow' + frame).fadeOut();
+            if (frame == end) { frame = start; } else { frame += 1; }
+            setTimeout(function(){$('#slideshow' + frame ).fadeIn();}, 500);
+            setTimeout(slideshow(frame, start, end, delay), delay + 1000);
+        })
+    }
+    // usage: startSlides(first frame, end frame, delay time);
+    startSlides(1, 4, 5000);
+</script>
 
+<div id="slideshow1" class="slide">
+    <div><img src="img/PirateHubSlider/pinecone.png"></div>
+</div>
+<div id="slideshow2" class="slide" style="display: none">
+    <div><img src="img/PirateHubSlider/building.png"></div>
+</div>
+<div id="slideshow3" class="slide" style="display: none">
+    <div><img src="img/PirateHubSlider/library.png"></div>
+</div>
+<div id="slideshow4" class="slide" style="display: none">
+    <div><img src="img/PirateHubSlider/fountain.png"></div>
+</div>-->
+<section class="big-background">
+<ul class="cb-slideshow">
+    <li><span>Image 01</span></li>
+    <li><span>Image 02</span></li>
+    <li><span>Image 03</span></li>
+    <li><span>Image 04</span></li>
+    <li><span>Image 05</span></li>
+    <li><span>Image 06</span></li>
+</ul>
+
+    <div class="big-background-container ">
+        <h1 class="big-background-title">Welcome To <b>PirateHub</b> </h1>
+
+        <!--DOWN ARROW BUTTON-->
+         <a href="#icon-section" class="btn btn-circle page-scroll">
+         <i class="fa fa-angle-double-down animated">
+         </i>
+             </a>
+         <!--END DOWN ARROW BUTTON-->
+        </div>
+
+    </section>
 
 <!-- ICON SECTION -->
 <div id="icon-section" class="wrapper">
