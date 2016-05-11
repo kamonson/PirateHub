@@ -3,26 +3,32 @@ This is an app for Whitworth University.  It compiles a "hub" of information per
 
 ##Features
 *Academic Calendar:
-{more on Academic Calendar}
+Uses custom script to pull down API from pirate backend.
+The academic calendar information is from https://www.whitworth.edu/cms/administration/registrar/academic-calendars-and-schedules/.  An academic calendar is chosen (based on year and month), scraped, parsed and stored in a database through Microsoft's azure.  All this is done through an Authomation account in Kyle Amonson's azure account.  It is scripted with powershell and updated every day at 2 AM.
+
+*Athletic Calendar:
+Uses custom script to pull down API from pirate backend and populate a list of athletic events.
+The information for this calendar is from an RSS feed (http://whitworthpirates.com/composite?print=rss).  In a Microsoft Azure runbook, (powershell) the information is parsed and stored in the azure database.  This information is updated every day at 2 AM.
 
 *Blackboard:
-Uses iFrame to display blackboard within app page
+Uses iFrame to display blackboard within app page (bb.whitworth.edu)
 --bug blackboard is non responsive website, as a result scalling is broken
 
 *Course Evaluations:
-{more on Course Evaluations}
+An embedded url in an iFrame.  (https://www.smartevals.com/loginMobile.aspx?s=whitworth)
 
 *Event Calendar:
-{more on Event Calendar}
+Uses custom script to pull down API from pirate backend.
+In a Microsoft Azure powershell runbook, the url: https://www.whitworth.edu/Calendar/Master/listview.aspx?Day= is editted to include a date at the end in the format ('MM-dd-yyyy').  It is then scraped, parsed, and stored in the azure db. This calendar is also updated every day at 2 AM. 
 
 *Facebook:
-{more on Facebook}
+Embedded in an iFrame.  Utilizes the juicer.io API. Username and password located in SEPirateHub Google Doc. It pulls feed from Whitworth's facebook page.
 
-*Instagram:
-{more on Instagram}
+*Instagram (Gallery):
+Embedded in an iFrame.  Utilizes the juicer.io API. Username and password located in SEPirateHub Google Doc. It pulls photos from Whitworth's Instagram page.
 
 *Location Services:
-{more on Location Services}
+Location services would require permissions on each mobile device, so this feature was left off.
 
 *Map:
 {more on Map}
@@ -30,11 +36,7 @@ Uses iFrame to display blackboard within app page
 *Phonebook:
 {more on Phonebook}
 
-*Sodexo Menu:
-{more on Sodexo Menu}
 
-*Sports Calendar:
-Uses custom script to pull down API from pirate backend and populate a list of athletic events
 
 
 ##Backend
