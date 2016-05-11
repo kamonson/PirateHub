@@ -842,8 +842,11 @@ table {
 td {
     text-align: center;
     padding: 0% 2% 5% 2%;
+    font-family: 'Lato', sans-serif;
 }
 
 th {
     padding: 0% 2% 5% 2%;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal
 }
