@@ -2,371 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a973b956-4356-4d92-8e82-0ef4804d85ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\ConsoleApplication1\ConsoleApplication1.sln" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\ConsoleApplication1\ConsoleApplication1\App.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.csproj" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\ConsoleApplication1\ConsoleApplication1\Program.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\ConsoleApplication1\ConsoleApplication1\Properties\AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\.vs\config\applicationhost.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend.sln" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Data\PirateBackendContext-20160420213713.mdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Data\PirateBackendContext-20160420213713_log.ldf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Start\BundleConfig.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Start\FilterConfig.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Start\RouteConfig.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\App_Start\WebApiConfig.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\ApplicationInsights.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Content\AthleticEvent.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Content\Site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Content\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Content\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Controllers\AcademicCalandarController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Controllers\AthleticEventController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Controllers\EventCalandarController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Controllers\HomeController.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Global.asax" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Global.asax.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Migrations\201604210439037_Initial.Designer.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Migrations\201604210439037_Initial.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Migrations\201604210439037_Initial.resx" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Migrations\Configuration.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Models\AcademicCalendar.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Models\AthleticEvent.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Models\EventCalendar.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Models\PirateBackendContext.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\PirateBackend.csproj" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Project_Readme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Properties\AssemblyInfo.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Properties\PublishProfiles\PirateBackend.pubxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Properties\PublishProfiles\PirateHub.pubxml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\_references.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\ai.0.15.0-build58334.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\ai.0.15.0-build58334.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery-1.10.2.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery.validate-vsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\knockout-3.4.0.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\knockout-3.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\respond.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Scripts\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Service References\Application Insights\ConnectedService.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\ValidateHttpAntiForgeryTokenAttribute.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\About.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Contact.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Create.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Delete.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Details.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Edit.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Home\Index.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\_references.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\ai.0.15.0-build58334.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\ai.0.15.0-build58334.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery-1.10.2.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery.validate-vsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\knockout-3.4.0.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\knockout-3.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\respond.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Scripts\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Shared\Error.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Shared\_Layout.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Views\_ViewStart.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Web.Debug.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Web.Release.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\ApplicationInsights.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\EntityFramework.SqlServer.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\EntityFramework.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.AI.DependencyCollector.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.AI.ServerTelemetryChannel.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.AI.Web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.AI.WindowsServer.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.ApplicationInsights.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\PirateBackend.dll.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Net.Http.Formatting.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Helpers.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Http.Cors.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Http.WebHost.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Http.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Optimization.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.WebPages.Deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.WebPages.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\System.Web.WebPages.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\roslyn\Microsoft.CSharp.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\roslyn\Microsoft.VisualBasic.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\bin\roslyn\VBCSCompiler.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Debug\PirateBackend.Migrations.Initial.resources" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Debug\PirateBackend.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\CSAutoParameterize.parameters.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\CSAutoParameterize\original\Views\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\CSAutoParameterize\original\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\CSAutoParameterize\transformed\Views\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\CSAutoParameterize\transformed\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\InsertEFCodeFirstDeploy\original\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\InsertEFCodeFirstDeploy\transformed\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\ApplicationInsights.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Content\AthleticEvent.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Content\Site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Content\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Content\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Global.asax" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Service References\Application Insights\ConnectedService.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\About.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Contact.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Create.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Delete.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Details.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Edit.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Home\Index.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\_references.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\ai.0.15.0-build58334.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\ai.0.15.0-build58334.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\knockout-3.4.0.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\knockout-3.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\respond.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Scripts\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Shared\Error.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Shared\_Layout.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Views\_ViewStart.cshtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\bin\ApplicationInsights.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.CSharp.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\bin\roslyn\Microsoft.VisualBasic.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\bin\roslyn\VBCSCompiler.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PackageTmp\packages.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\Package\PirateBackend.SourceManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\PirateBackend.Migrations.Initial.resources" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\PirateBackend.csproj.FileListAbsolute.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TransformWebConfig\assist\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TransformWebConfig\original\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\TransformWebConfig\transformed\Web.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\obj\Release\_WPPLastBuildInfo.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\PirateBackend\packages.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Antlr.3.4.1.9004\Antlr.3.4.1.9004.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\EntityFramework.6.1.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\content\App.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\content\Web.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\tools\EntityFramework.psd1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\tools\EntityFramework.psm1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\tools\about_EntityFramework.help.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\tools\init.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\EntityFramework.6.1.3\tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.1.2.3\Microsoft.ApplicationInsights.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.1.2.3\lib\net40\Microsoft.ApplicationInsights.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.1.2.3\lib\net45\Microsoft.ApplicationInsights.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.1.2.3\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.1.2.3\lib\wp8\Microsoft.ApplicationInsights.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\Microsoft.ApplicationInsights.DependencyCollector.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\content\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\content\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\content\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net40\Microsoft.AI.DependencyCollector.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net45\Microsoft.AI.DependencyCollector.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334\Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334\content\scripts\ai.0.15.0-build58334.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334\content\scripts\ai.0.15.0-build58334.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.JavaScript.0.15.0-build58334\tools\prefix.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\content\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\content\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\content\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\Microsoft.ApplicationInsights.Web.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net40\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net40\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net40\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net40\web.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net40\web.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net45\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net45\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net45\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net45\web.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\content\net45\web.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net40\Microsoft.AI.Web.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net45\Microsoft.AI.Web.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\Microsoft.ApplicationInsights.WindowsServer.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\content\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\content\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\content\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net40\Microsoft.AI.WindowsServer.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net45\Microsoft.AI.WindowsServer.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\content\ApplicationInsights.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\content\ApplicationInsights.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\content\ApplicationInsights.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net40\Microsoft.AI.ServerTelemetryChannel.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net45\Microsoft.AI.ServerTelemetryChannel.XML" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Cors.5.2.3\Microsoft.AspNet.Cors.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Mvc.5.2.3\Content\Web.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Mvc.5.2.3\Content\Web.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Mvc.5.2.3\Microsoft.AspNet.Mvc.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Razor.3.2.3\Microsoft.AspNet.Razor.3.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Web.Optimization.1.1.3\Microsoft.AspNet.Web.Optimization.1.1.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\system.web.optimization.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.5.2.3\Microsoft.AspNet.WebApi.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Client.5.2.3\Microsoft.AspNet.WebApi.Client.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\portable-wp8%2Bnetcore45%2Bnet45%2Bwp81%2Bwpa81\System.Net.Http.Formatting.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Core.5.2.3\Content\web.config.transform" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Core.5.2.3\Microsoft.AspNet.WebApi.Core.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\Microsoft.AspNet.WebApi.Cors.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\Microsoft.AspNet.WebApi.WebHost.5.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\Content\Web.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\Content\Web.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\Microsoft.AspNet.WebPages.3.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.install.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\content\web.config.uninstall.xdt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\init.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\Microsoft.Net.Compilers.1.0.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\ThirdPartyNotices.rtf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.CSharp.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\tools\Microsoft.VisualBasic.Core.targets" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Net.Compilers.1.0.0\tools\VBCSCompiler.exe.config" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.Web.Infrastructure.1.0.0.0\Microsoft.Web.Infrastructure.1.0.0.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Content\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Microsoft.jQuery.Unobtrusive.Validation.3.2.3\Microsoft.jQuery.Unobtrusive.Validation.3.2.3.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Modernizr.2.6.2\Content\Scripts\modernizr-2.6.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Modernizr.2.6.2\Modernizr.2.6.2.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Modernizr.2.6.2\Tools\common.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Modernizr.2.6.2\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Modernizr.2.6.2\Tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\Newtonsoft.Json.6.0.4.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\net20\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\net35\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\portable-net40%2Bsl5%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\lib\portable-net45%2Bwp80%2Bwin8%2Bwpa81\Newtonsoft.Json.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Newtonsoft.Json.6.0.4\tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Respond.1.2.0\Respond.1.2.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Respond.1.2.0\content\Scripts\respond.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\Respond.1.2.0\content\Scripts\respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\WebGrease.1.5.2\WebGrease.1.5.2.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\bootstrap.3.0.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\Content\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\Content\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\Scripts\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\Scripts\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2-vsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Tools\common.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Tools\install.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Tools\jquery-1.10.2.intellisense.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\Tools\uninstall.ps1" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.1.10.2\jQuery.1.10.2.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate-vsdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\jQuery.Validation.1.11.1\jQuery.Validation.1.11.1.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\knockoutjs.3.4.0\Content\Scripts\knockout-3.4.0.debug.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\knockoutjs.3.4.0\Content\Scripts\knockout-3.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\Backend - Copy\PirateBackend\packages\knockoutjs.3.4.0\knockoutjs.3.4.0.nupkg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\athletics.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\calendars.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\events.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\homeScreenIcons\courseevals_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\newsfeed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\phonebook.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/blackboard.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/blackboard.png" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\css\style3.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\www\img\logo.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/calendars.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/calendars.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/campusmap.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/campusmap.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/events.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/events.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/newsfeed.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/newsfeed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/phonebook.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/phonebook.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/photogallery.png" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/img/homeScreenIcons/photogallery.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/grayscale.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/grayscale.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/config.xml" afterPath="$PROJECT_DIR$/PirateHub/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/platforms.json" afterPath="$PROJECT_DIR$/PirateHub/platforms/platforms.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PirateHubPG.iws" />
@@ -410,14 +54,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsFeed.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewsFeed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1444569">
+            <state vertical-scroll-proportion="-4.9615383">
               <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PirateHub/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.83242655">
+              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -476,18 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="device.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PirateHub/www/js/device.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="grayscale.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/js/grayscale.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -515,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PirateHub/config.xml" />
         <option value="$PROJECT_DIR$/PirateHub/www/spec/CourseEvaluations.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/FacebookAPI.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/InstagramAPI.html" />
@@ -539,6 +180,7 @@
         <option value="$PROJECT_DIR$/PirateHub/www/Gallery.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/Blackboard.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/NewsFeed.html" />
+        <option value="$PROJECT_DIR$/PirateHub/config.xml" />
       </list>
     </option>
   </component>
@@ -648,7 +290,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -772,8 +414,8 @@
     <option name="totallyTimeSpent" value="20294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -961,11 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PirateHub/www/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/img/intro-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -984,13 +621,6 @@
     <entry file="file://$PROJECT_DIR$/PirateHub/www/img/downloads-bg.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PirateHub/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Phonebook.html">
@@ -1216,11 +846,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1444569">
+        <state vertical-scroll-proportion="-4.9615383">
           <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PirateHub/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83242655">
+          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
