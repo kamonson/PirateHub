@@ -929,3 +929,9 @@ th {
     font-family: 'Lato', sans-serif;
     font-weight: normal
 }
+
+figure {
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
