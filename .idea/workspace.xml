@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a973b956-4356-4d92-8e82-0ef4804d85ae" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\css\style3.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\www\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\assets\www\js\jquery.mb.YTPlayer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\android\res\drawable-mdpi\icon.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/AcademicSchedules.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/AcademicSchedules.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Athletics.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Athletics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/EventCalendar.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/EventCalendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/config.xml" afterPath="$PROJECT_DIR$/PirateHub/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/device.min.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/device.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery.easing.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/slideshow.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/slideshow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/spec.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/spec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PirateHubPG.iws" />
@@ -48,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Blackboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="65" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -57,11 +77,9 @@
       <file leaf-file-name="NewsFeed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.9615383">
-              <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="12.769231">
+              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,8 +87,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PirateHub/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83242655">
-              <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.42546245">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -82,7 +100,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1462938260836" expanded="true" signature="0:1950" placeholder="/*...*/" />
               </folding>
             </state>
           </provider>
@@ -92,8 +110,10 @@
         <entry file="file://$PROJECT_DIR$/PirateHub/www/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="18942" selection-start-line="3" selection-start-column="18942" selection-end-line="3" selection-end-column="18942" />
-              <folding />
+              <caret line="2627" column="48" selection-start-line="2627" selection-start-column="48" selection-end-line="2627" selection-end-column="48" />
+              <folding>
+                <marker date="1462938260839" expanded="true" signature="145728:145729" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +125,7 @@
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1462938260834" expanded="true" signature="145728:145729" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -114,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/PirateHub/www/EventCalendar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+              <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -124,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -137,6 +158,8 @@
               <caret line="7" column="4" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <marker date="1462918936250" expanded="true" signature="608:808" placeholder="{...}" />
+                <marker date="1462918936250" expanded="true" signature="663:808" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -414,7 +437,7 @@
     <option name="totallyTimeSpent" value="20294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -462,17 +485,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#5;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#6;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#7;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#8;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -508,17 +521,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#5;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#6;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#7;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#8;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -561,17 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#5;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#6;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#7;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#8;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PirateHub/www/js/jquery.mb.YTPlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/css/grayscale.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -706,28 +692,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PirateHub/www/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#5;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#6;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#7;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#8;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +719,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -767,7 +736,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -778,6 +747,8 @@
           <caret line="7" column="4" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1462918936250" expanded="true" signature="608:808" placeholder="{...}" />
+            <marker date="1462918936250" expanded="true" signature="663:808" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -797,7 +768,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <marker date="1462938260836" expanded="true" signature="0:1950" placeholder="/*...*/" />
           </folding>
         </state>
       </provider>
@@ -805,8 +776,10 @@
     <entry file="file://$PROJECT_DIR$/PirateHub/www/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="18942" selection-start-line="3" selection-start-column="18942" selection-end-line="3" selection-end-column="18942" />
-          <folding />
+          <caret line="2627" column="48" selection-start-line="2627" selection-start-column="48" selection-end-line="2627" selection-end-column="48" />
+          <folding>
+            <marker date="1462938260839" expanded="true" signature="145728:145729" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +789,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <marker date="1462938260834" expanded="true" signature="145728:145729" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -823,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/PirateHub/www/EventCalendar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="37" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="37" />
+          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -831,7 +805,7 @@
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -839,25 +813,23 @@
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Blackboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="65" selection-start-line="116" selection-start-column="65" selection-end-line="116" selection-end-column="65" />
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9615383">
-          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="12.769231">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83242655">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.42546245">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding />
         </state>
       </provider>
