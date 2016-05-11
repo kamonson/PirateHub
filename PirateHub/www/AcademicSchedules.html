@@ -135,15 +135,14 @@
                 dateString += "<br>" +d.toLocaleTimeString();
                 items.push
                 (
-                        "<li id='" + key.toString() + "'class = 'list-group-item active'>"
-                        + '<h3>' + val.AcademicCalandarTitle + '</h3>'
-                        + '<p>' + val.AcademicCalandarDescription + '</p>'
-                        + '<p>' + dateString + '</p>'
-                        + "</li>"
+                        "<table id='" + key.toString() + "'class = 'list-group-item active'>"
+                        + '<tr>' + '<td>' + '<h3>' + val.AcademicCalandarTitle + '</h3>'
+                        + '<p>' + val.AcademicCalandarDescription + '</p>' + '</tr>' + '</td>' + '<hr>'
+                        + "</table>"
                 );
             });
 
-            $("<ul/>", {
+            $("<table/>", {
                 html: items.join("")
             }).appendTo("#Events");
         });
