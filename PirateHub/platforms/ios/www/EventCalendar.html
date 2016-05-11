@@ -103,7 +103,8 @@
     </div>
     <!-- /.container -->
 </nav>
-<section id="Events" class="container content-section text-center">
+
+<section id="Events" class=" content-section text-center">
 
 </section>
 
@@ -131,19 +132,20 @@
                 date = val.EventCalandarDateTime;
                 var d=new Date(date);
                 var dateString = d.toDateString();
-                dateString += "<br>" +d.toLocaleTimeString();
+
                 items.push
                 (
-                        "<li id='" + key.toString() + "'class = 'list-group-item active'>"
-                        + '<h3>' + val.EventCalandarTitle + '</h3>'
+
+                        "<table id='" + key.toString() + "'>"
+                        + '<tr>' + '<td>' + '<h3>' + val.EventCalandarTitle + '</h3>'
                         + '<p>' + val.EventCalandarLocation + '</p>'
                         + '<p>' + val.EventCalandarDescription + '<p>'
-                        + '<p>' + dateString + '</p>'
-                        + "</li>"
+                        + '<p>' + dateString + '</p>' + '</td>' + '</tr>' + '<hr>'
+                        + "</table>"
                 );
             });
 
-            $("<ul/>", {
+            $("<table/>", {
                 html: items.join("")
             }).appendTo("#Events");
         });
