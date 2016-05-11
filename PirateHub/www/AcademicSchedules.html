@@ -81,7 +81,9 @@
 </nav>
 
 <!--inject athletic events-->
-<section id="Events" class="content-section text-center"></section>
+<section id="Events" class="content-section text-center">
+    <div id="Spinner" class="loading-spinner"></div>
+</section>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -118,7 +120,12 @@
             $("<table/>", {
                 html: items.join("")
             }).appendTo("#Events");
+
+            var parent = document.getElementById("Events");
+            var child = document.getElementById("Spinner");
+            parent.removeChild(child);
         });
+
     })();
 </script>
 
