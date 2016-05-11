@@ -851,8 +851,8 @@ th {
     font-weight: normal
 }
 
-/* Custom table style for home screen icons */
-table.homeTable {
-    width: 100%;
-    font-family: Lora, "Helvetica Neue"
+figure {
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
