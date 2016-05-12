@@ -11,8 +11,7 @@ Uses custom script to pull down API from pirate backend and populate a list of a
 The information for this calendar is from an RSS feed (http://whitworthpirates.com/composite?print=rss).  In a Microsoft Azure runbook, (powershell) the information is parsed and stored in the azure database.  This information is updated every day at 2 AM.
 
 *Blackboard:
-Uses iFrame to display blackboard within app page (bb.whitworth.edu)
---bug blackboard is non responsive website, as a result scalling is broken
+Clicking on the Blackboard icon on the home screen, takes you to Blackboard in your smartphone browser (not in-app).
 
 *Course Evaluations:
 An embedded url in an iFrame.  (https://www.smartevals.com/loginMobile.aspx?s=whitworth)
