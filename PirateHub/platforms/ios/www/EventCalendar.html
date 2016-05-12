@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="Kyle, Kat, Katie, Lucas, Jordanne" content="">
 
-    <title>PirateHub - Event Calendar</title>
+    <title>PirateHub - </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,9 +18,28 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Favicon (Pirate Ship Logo)-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/PirateHubFavicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/PirateHubFavicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/PirateHubFavicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/PirateHubFavicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/PirateHubFavicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/PirateHubFavicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/PirateHubFavicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/PirateHubFavicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/PirateHubFavicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/PirateHubFavicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/PirateHubFavicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/PirateHubFavicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/PirateHubFavicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End of Favicon -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,13 +60,16 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="index.html">
-                <span class="light">Pirate</span> Hub
+                  <span class="light">Pirate</span> Hub
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
             <ul class="nav navbar-nav">
+                <!-- FOR PAGE SCROLL TO TOP <li>
+                    <a class="page-scroll" href="#page-top">Top</a>
+                </li> -->
                 <li>
                     <a href="AcademicSchedules.html">Academic Schedules</a>
                 </li>
@@ -55,7 +77,7 @@
                     <a href="Athletics.html">Athletics</a>
                 </li>
                 <li>
-                    <a href="http://bb.whitworth.edu" target="_blank">Blackboard</a>
+                    <a href="Blackboard.html">Blackboard</a>
                 </li>
                 <li>
                     <a href="Map.html">Campus Map</a>
@@ -75,19 +97,16 @@
                 <li>
                     <a href="Gallery.html">Photo Gallery</a>
                 </li>
-                <li>
-                    <a href="Help.html">Help</a>
-                </li>
             </ul>
         </div>
+        <!-- /.navbar-collapse -->
     </div>
+    <!-- /.container -->
 </nav>
 
-<!--inject campus events calendar-->
-<section id="Events" class="content-section text-center">
-    <div id="Spinner" class="loading-spinner"></div>
-</section>
+<section id="Events" class=" content-section text-center">
 
+</section>
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -98,10 +117,12 @@
 <!-- Plugin JavaScript -->
 <script src="js/jquery.easing.min.js"></script>
 
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
 <!-- Custom Theme JavaScript -->
 <script src="js/grayscale.js"></script>
 
-<!--script to get the event calendar-->
 <script>
     (function () {
         $.getJSON("http://piratebackend.azurewebsites.net/api/EventCalandar", function (data) {
@@ -109,11 +130,12 @@
             var date;
             $.each(data, function (key, val) {
                 date = val.EventCalandarDateTime;
-                var d = new Date(date);
+                var d=new Date(date);
                 var dateString = d.toDateString();
 
                 items.push
                 (
+
                         "<table id='" + key.toString() + "'>"
                         + '<tr>' + '<td>' + '<h3>' + val.EventCalandarTitle + '</h3>'
                         + '<p>' + val.EventCalandarLocation + '</p>'
@@ -126,13 +148,10 @@
             $("<table/>", {
                 html: items.join("")
             }).appendTo("#Events");
-
-            var parent = document.getElementById("Events");
-            var child = document.getElementById("Spinner");
-            parent.removeChild(child);
         });
     })();
 </script>
+
 
 </body>
 </html>
