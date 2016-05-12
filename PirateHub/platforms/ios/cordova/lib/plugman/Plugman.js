@@ -31,8 +31,9 @@ var configMunger = require('../configMunger');
 var projectFile = require('../projectFile');
 var pluginHandlers = require('./pluginHandlers');
 
-function Plugman(locations) {
+function Plugman(locations, events) {
     this.locations = locations;
+    this.events = events;
 
     this._munger = configMunger.get(this.locations.root);
     this._platformJson = this._munger.platformJson;
@@ -42,10 +43,10 @@ function Plugman(locations) {
 // shared Plugman instance
 var _instance = null;
 
-Plugman.get = function(locations) {
+Plugman.get = function(locations, events) {
 
     if (!_instance) {
-        _instance = new Plugman(locations);
+        _instance = new Plugman(locations, events);
     }
     // we use singleton Plugman instance so we don't inistantiate all helper classes
     // for each plugin add or rm
@@ -182,10 +183,6 @@ Plugman.prototype._addModulesInfo = function(plugin, targetDir) {
     });
 
     this._platformJson.root.modules = installedModules.concat(modulesToInstall);
-    if (!this._platformJson.root.plugin_metadata) {
-        this._platformJson.root.plugin_metadata = {};
-    }
-    this._platformJson.root.plugin_metadata[plugin.id] = plugin.version;
     this._writePluginModules(targetDir);
     this._platformJson.save();
 };
@@ -199,13 +196,20 @@ Plugman.prototype._addModulesInfo = function(plugin, targetDir) {
  *   directories.
  */
 Plugman.prototype._writePluginModules = function (targetDir) {
+    var self = this;
     // Write out moduleObjects as JSON wrapped in a cordova module to cordova_plugins.js
     var final_contents = 'cordova.define(\'cordova/plugin_list\', function(require, exports, module) {\n';
     final_contents += 'module.exports = ' + JSON.stringify(this._platformJson.root.modules, null, '    ') + ';\n';
     final_contents += 'module.exports.metadata = \n';
     final_contents += '// TOP OF METADATA\n';
 
-    final_contents += JSON.stringify(this._platformJson.root.plugin_metadata, null, 4) + '\n';
+    var pluginMetadata = Object.keys(this._platformJson.root.installed_plugins)
+    .reduce(function (metadata, plugin) {
+        metadata[plugin] = self._platformJson.root.installed_plugins[plugin].version;
+        return metadata;
+    }, {});
+
+    final_contents += JSON.stringify(pluginMetadata, null, 4) + '\n';
     final_contents += '// BOTTOM OF METADATA\n';
     final_contents += '});'; // Close cordova.define.
 
@@ -235,9 +239,6 @@ Plugman.prototype._removeModulesInfo = function(plugin, targetDir) {
     });
 
     this._platformJson.root.modules = updatedModules;
-    if (this._platformJson.root.plugin_metadata) {
-        delete this._platformJson.root.plugin_metadata[plugin.id];
-    }
     this._writePluginModules(targetDir);
     this._platformJson.save();
 };

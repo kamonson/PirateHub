@@ -23,19 +23,7 @@ var fs = require('fs');
 var path = require('path');
 
 var CordovaError = require('cordova-common').CordovaError;
-var CordovaLogger = require('cordova-common').CordovaLogger;
-var events = require('cordova-common').events;
-
-function setupEvents(externalEventEmitter) {
-    if (externalEventEmitter) {
-        // This will make the platform internal events visible outside
-        events.forwardEventsTo(externalEventEmitter);
-    } else {
-        // There is no logger if external emitter is not present, 
-        // so attach a console logger
-        CordovaLogger.get().subscribe(events);
-    }
-}
+var ConsoleLogger = require('./lib/ConsoleLogger');
 
 /**
  * Creates a new PlatformApi instance.
@@ -53,8 +41,9 @@ function Api(platform, platformRootDir, events) {
     this.platform = platform || 'ios';
 
     this.root = platformRootDir || path.resolve(__dirname, '..');
-
-    setupEvents(events);
+    this.events = events || ConsoleLogger.get();
+    // NOTE: trick to share one EventEmitter instance across all js code
+    require('cordova-common').events = this.events;
 
     var xcodeProjDir;
     var xcodeCordovaProj;
@@ -106,10 +95,8 @@ function Api(platform, platformRootDir, events) {
  *   instance or rejected with CordovaError.
  */
 Api.createPlatform = function (destination, config, options, events) {
-    setupEvents(events);
-
     return require('../../../lib/create')
-    .createProject(destination, config.packageName(), config.name(), options)
+    .createProject(destination, config.packageName(), config.name(), options, events || ConsoleLogger.get())
     .then(function () {
         // after platform is created we return Api instance based on new Api.js location
         // This is required to correctly resolve paths in the future api calls
@@ -135,13 +122,11 @@ Api.createPlatform = function (destination, config, options, events) {
  *   instance or rejected with CordovaError.
  */
 Api.updatePlatform = function (destination, options, events) {
-    setupEvents(events);
-
     return require('../../../lib/create')
-    .updateProject(destination, options)
+    .updateProject(destination, options, events || ConsoleLogger.get())
     .then(function () {
         var PlatformApi = require(path.resolve(destination, 'cordova/Api'));
-        return new PlatformApi('ios', destination, events);
+        return new PlatformApi('android', destination, events);
     });
 };
 
@@ -199,7 +184,7 @@ Api.prototype.prepare = function (cordovaProject) {
  */
 Api.prototype.addPlugin = function (plugin, installOptions) {
     var Plugman = require('./lib/plugman/Plugman');
-    return Plugman.get(this.locations).addPlugin(plugin, installOptions);
+    return Plugman.get(this.locations, this.events).addPlugin(plugin, installOptions);
 };
 
 /**
@@ -217,7 +202,7 @@ Api.prototype.addPlugin = function (plugin, installOptions) {
  */
 Api.prototype.removePlugin = function (plugin, uninstallOptions) {
     var Plugman = require('./lib/plugman/Plugman');
-    return Plugman.get(this.locations).removePlugin(plugin, uninstallOptions);
+    return Plugman.get(this.locations, this.events).removePlugin(plugin, uninstallOptions);
 };
 
 /**
