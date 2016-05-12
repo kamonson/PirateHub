@@ -2,82 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a973b956-4356-4d92-8e82-0ef4804d85ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\img\blackbackground.jpg" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\img\icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/res/icon/android/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Help.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\browser\www\config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\css\normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery.mb.YTPlayer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\spec.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\css\style3.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/slideshow.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/AcademicSchedules.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/AcademicSchedules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/AcademicSchedules.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/AcademicSchedules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/AcademicSchedules.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/AcademicSchedules.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html" afterPath="$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Athletics.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Athletics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Athletics.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Athletics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Athletics.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Athletics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Athletics.html" afterPath="$PROJECT_DIR$/PirateHub/www/Athletics.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Blackboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Blackboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Blackboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Blackboard.html" afterPath="$PROJECT_DIR$/PirateHub/www/Blackboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/CourseEvaluations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/CourseEvaluations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/CourseEvaluations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/CourseEvaluations.html" afterPath="$PROJECT_DIR$/PirateHub/www/CourseEvaluations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/EventCalendar.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/EventCalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/EventCalendar.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/EventCalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/EventCalendar.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/EventCalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/EventCalendar.html" afterPath="$PROJECT_DIR$/PirateHub/www/EventCalendar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Gallery.html" afterPath="$PROJECT_DIR$/PirateHub/www/Gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Help.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Help.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Help.html" afterPath="$PROJECT_DIR$/PirateHub/www/Help.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/LICENSE" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Map.html" afterPath="$PROJECT_DIR$/PirateHub/www/Map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/NewsFeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/NewsFeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/NewsFeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/NewsFeed.html" afterPath="$PROJECT_DIR$/PirateHub/www/NewsFeed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/Phonebook.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/Phonebook.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/Phonebook.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/Phonebook.html" afterPath="$PROJECT_DIR$/PirateHub/www/Phonebook.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\custom.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\custom.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\device.min.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\device.min.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\cordova-js-src\exec.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\cordova-js-src\exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/css/grayscale.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/grayscale.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/grayscale.css" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\grayscale.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\grayscale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/browser/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/www/index.html" afterPath="$PROJECT_DIR$/PirateHub/www/index.html" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery-1.11.1.min.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery-1.11.1.min.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery.easing.min.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery.easing.min.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\js\jquery.js" />
-      <change type="MODIFICATION" beforePath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\cordova-js-src\platform.js" afterPath="C:\Users\Kyle\Documents\PirateHub\PirateHub\platforms\ios\www\cordova-js-src\platform.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PirateHubPG.iws" />
@@ -102,7 +32,7 @@
       <file leaf-file-name="Blackboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Blackboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
@@ -112,18 +42,18 @@
       <file leaf-file-name="NewsFeed.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Phonebook.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Phonebook.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Phonebook.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+            <state vertical-scroll-proportion="-17.653847">
+              <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -131,10 +61,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AcademicSchedules.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7230098">
+              <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CourseEvaluations.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/CourseEvaluations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
@@ -144,7 +84,7 @@
       <file leaf-file-name="Map.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -156,7 +96,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="73" column="160" selection-start-line="73" selection-start-column="160" selection-end-line="73" selection-end-column="160" />
               <folding />
             </state>
@@ -166,7 +106,7 @@
       <file leaf-file-name="EventCalendar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/EventCalendar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
@@ -176,7 +116,7 @@
       <file leaf-file-name="Gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
@@ -186,17 +126,7 @@
       <file leaf-file-name="Help.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PirateHub/www/Help.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
-              <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Athletics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PirateHub/www/Athletics.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3818183">
+            <state vertical-scroll-proportion="0.0">
               <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
               <folding />
             </state>
@@ -234,7 +164,6 @@
         <option value="$PROJECT_DIR$/PirateHub/www/css/grayscale.css" />
         <option value="$PROJECT_DIR$/PirateHub/config.xml" />
         <option value="$PROJECT_DIR$/PirateHub/www/index.html" />
-        <option value="$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/Athletics.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/Blackboard.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/CourseEvaluations.html" />
@@ -244,6 +173,7 @@
         <option value="$PROJECT_DIR$/PirateHub/www/Map.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/NewsFeed.html" />
         <option value="$PROJECT_DIR$/PirateHub/www/Phonebook.html" />
+        <option value="$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html" />
       </list>
     </option>
   </component>
@@ -282,8 +212,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,6 +286,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,7 +299,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="FullScreen" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Kyle/Documents/PirateHub/PirateHub/www/index.html" />
   </component>
   <component name="RecentsManager">
@@ -479,9 +409,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13130252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13235295" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -803,17 +733,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
-          <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Athletics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -821,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Blackboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -829,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/CourseEvaluations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -837,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/EventCalendar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -845,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -853,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Help.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -861,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="73" column="160" selection-start-line="73" selection-start-column="160" selection-end-line="73" selection-end-column="160" />
           <folding />
         </state>
@@ -869,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="69" column="70" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -879,7 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/NewsFeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3818183">
+        <state vertical-scroll-proportion="0.0">
           <caret line="51" column="70" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
           <folding />
         </state>
@@ -887,11 +809,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PirateHub/www/Phonebook.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="84" column="45" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PirateHub/www/AcademicSchedules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7230098">
+          <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
