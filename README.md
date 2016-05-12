@@ -31,10 +31,10 @@ Embedded in an iFrame.  Utilizes the juicer.io API. Username and password locate
 Location services would require permissions on each mobile device, so this feature was left off.
 
 *Map:
-{more on Map}
+Google map services embedded in an iFrame.
 
 *Phonebook:
-{more on Phonebook}
+A complete list of important and pertinent information that once clicked puts the phone number into the phone's dialer to call.
 
 
 
