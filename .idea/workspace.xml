@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a973b956-4356-4d92-8e82-0ef4804d85ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/Contents.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/loggingHelper.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.xcworkspace/xcuserdata/JPerry1120.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.xcworkspace/xcuserdata/JPerry1120.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/config.xml" afterPath="$PROJECT_DIR$/PirateHub/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVIntentAndNavigationFilter/CDVIntentAndNavigationFilter.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Private/Plugins/CDVUIWebViewEngine/CDVUIWebViewEngine.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVAvailability.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVPlugin.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVViewController.h" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVViewController.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVViewController.m" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.m" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/Classes/Public/CDVWhitelist.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/VERSION" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/VERSION" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/cordova.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/CordovaLib/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/PirateHub-Info.plist" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/PirateHub-Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/config.xml" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/Api.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/Api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_ios_version" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_ios_version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_osx_version" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_osx_version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_xcode_version" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/apple_xcode_version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-debug.xcconfig" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-extras.xcconfig" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-extras.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-release.xcconfig" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build-release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build.xcconfig" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/build.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/check_reqs" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/check_reqs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/check_reqs.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/check_reqs.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/clean" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/clean" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/clean.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/clean.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/defaults.xml" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/defaults.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/build.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/build.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/check_reqs.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/check_reqs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/clean.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/clean.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/configMunger.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/configMunger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/copy-www-build-step.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/copy-www-build-step.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-devices" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-devices" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-emulator-images" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-emulator-images" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-started-emulators" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/list-started-emulators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/plugman/Plugman.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/plugman/Plugman.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/plugman/pluginHandlers.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/plugman/pluginHandlers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/prepare.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/prepare.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/projectFile.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/projectFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/run.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/spawn.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/spawn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/start-emulator" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/start-emulator" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/versions.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/lib/versions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/log" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/log.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/log.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/run" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/run" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/run.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/run.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/version" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/version.bat" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/cordova/version.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/platform_www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/platform_www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/platform_www/cordova.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/platform_www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova-js-src/exec.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova-js-src/exec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/platforms.json" afterPath="$PROJECT_DIR$/PirateHub/platforms/platforms.json" />
     </list>
     <ignored path="PirateHubPG.iws" />
     <ignored path=".idea/workspace.xml" />
