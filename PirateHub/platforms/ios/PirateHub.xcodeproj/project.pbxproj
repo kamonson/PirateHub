@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1043238F1CE563890043248E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104323861CE563890043248E /* Default-568h@2x.png */; };
+		104323901CE563890043248E /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104323871CE563890043248E /* Default-667h@2x.png */; };
+		104323911CE563890043248E /* Default-Landscape-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 104323881CE563890043248E /* Default-Landscape-736h@3x.png */; };
+		104323921CE563890043248E /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 104323891CE563890043248E /* Default-Landscape.png */; };
+		104323931CE563890043248E /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1043238A1CE563890043248E /* Default-Landscape@2x.png */; };
+		104323941CE563890043248E /* Default-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1043238B1CE563890043248E /* Default-Portrait-736h@3x.png */; };
+		104323951CE563890043248E /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 1043238C1CE563890043248E /* Default-Portrait.png */; };
+		104323961CE563890043248E /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1043238D1CE563890043248E /* Default-Portrait@2x.png */; };
+		104323971CE563890043248E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1043238E1CE563890043248E /* Default@2x.png */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
@@ -34,6 +43,15 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PirateHub/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		104323861CE563890043248E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		104323871CE563890043248E /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		104323881CE563890043248E /* Default-Landscape-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape-736h@3x.png"; sourceTree = "<group>"; };
+		104323891CE563890043248E /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		1043238A1CE563890043248E /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		1043238B1CE563890043248E /* Default-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		1043238C1CE563890043248E /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		1043238D1CE563890043248E /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		1043238E1CE563890043248E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* PirateHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PirateHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +64,6 @@
 		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
-		32CA4F630368D1EE00C91783 /* PirateHub-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PirateHub-Prefix.pch"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PirateHub-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "PirateHub-Info.plist"; path = "PirateHub/PirateHub-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
@@ -90,6 +107,15 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				104323861CE563890043248E /* Default-568h@2x.png */,
+				104323871CE563890043248E /* Default-667h@2x.png */,
+				104323881CE563890043248E /* Default-Landscape-736h@3x.png */,
+				104323891CE563890043248E /* Default-Landscape.png */,
+				1043238A1CE563890043248E /* Default-Landscape@2x.png */,
+				1043238B1CE563890043248E /* Default-Portrait-736h@3x.png */,
+				1043238C1CE563890043248E /* Default-Portrait.png */,
+				1043238D1CE563890043248E /* Default-Portrait@2x.png */,
+				1043238E1CE563890043248E /* Default@2x.png */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
@@ -107,7 +133,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* PirateHub-Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
 			);
@@ -241,7 +266,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				104323901CE563890043248E /* Default-667h@2x.png in Resources */,
+				104323931CE563890043248E /* Default-Landscape@2x.png in Resources */,
+				104323951CE563890043248E /* Default-Portrait.png in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				104323971CE563890043248E /* Default@2x.png in Resources */,
+				1043238F1CE563890043248E /* Default-568h@2x.png in Resources */,
+				104323911CE563890043248E /* Default-Landscape-736h@3x.png in Resources */,
+				104323961CE563890043248E /* Default-Portrait@2x.png in Resources */,
+				104323941CE563890043248E /* Default-Portrait-736h@3x.png in Resources */,
+				104323921CE563890043248E /* Default-Landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,10 +341,11 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "PirateHub/PirateHub-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.laloosh.piratehub;
 				PRODUCT_NAME = PirateHub;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -331,10 +366,11 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "PirateHub/PirateHub-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.laloosh.piratehub;
 				PRODUCT_NAME = PirateHub;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

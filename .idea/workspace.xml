@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a973b956-4356-4d92-8e82-0ef4804d85ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-667h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Landscape-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Landscape@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Portrait-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default-Portrait@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default@2x-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape~nostatusbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape~nostatusbar@2x-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~landscape~nostatusbar@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~nostatusbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Default~ipad~nostatusbar@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-667h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Landscape-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Landscape@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Portrait-736h@3x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default-Portrait@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PirateHub/www/Default@2x.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/pirateHUB_logo-48.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.xcworkspace/xcuserdata/JPerry1120.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.xcworkspace/xcuserdata/JPerry1120.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Contents.json" afterPath="$PROJECT_DIR$/PirateHub/platforms/ios/PirateHub/Images.xcassets/LaunchImage.launchimage/Contents.json" />
     </list>
     <ignored path="PirateHubPG.iws" />
     <ignored path=".idea/workspace.xml" />
